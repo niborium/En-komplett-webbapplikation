@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>En_komplett_webbapplikation</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
